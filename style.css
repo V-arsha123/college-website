@@ -1,0 +1,96 @@
+#navbarNavDropdown a{
+    color: white;
+    
+}
+
+
+.bg-footer {
+    background-color: #0060b1;
+    /* #1f2532; */
+    /* padding-top: 18%; */
+    padding-bottom: 10px;
+  }
+
+  hr.rounded {
+    border-top: 2px solid #bbb;
+    border-radius: 5px;
+  }
+  .img-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .img-list li {
+    width: 100%;
+    padding: 0px;
+    font-size: 18px;
+  }
+  
+  .img-list img {
+    width: 240px;
+  }
+  
+  .img-list a {
+    color: #a5a7ad;
+    text-decoration: none !important;
+  }
+  
+  .img-list :hover {
+    color: #3dbdb6;
+  }
+  
+  .copyright-text {
+    padding-top: 20px !important;
+  }
+  .about-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-list h5 {
+    color: white;
+    font-size: 22px;
+    text-transform: none;
+    font-weight: 500;
+    margin: 0 0 6px;
+  }
+  
+  .about-list a {
+    color: #bdbec1;
+    /* #a5a7ad; */
+    font-size: 16px;
+    text-decoration: none !important;
+  }
+  
+  .about-list li :hover {
+    color: #3dbdb6;
+  }
+  .thankyou h3 {
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: auto;
+  }
+  
+  .thankyou a {
+    color: white;
+  }
+  
+  .thankyou a:hover {
+    color: #3dbdb6 !important;
+  }
+
+  #smybtn button{
+    border:2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background-color:#000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+

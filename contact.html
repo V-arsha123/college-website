@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>jain college of engineering </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <!------------nav start------------>
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: rgba(7, 7, 131, 0.514);">
+        <div class="container-fluid">
+            <a class="navbar-brand"><img src="jgi logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="event.html">Events</a>
+                      </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Departments
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"
+                            style="background-color:rgba(0, 128, 128, 0.527);">
+                            <li><a class="dropdown-item" href="civil.html">Civil Engineering</a></li>
+                            <li><a class="dropdown-item" href="cs.html">Computer Science Engineering</a></li>
+                            <li><a class="dropdown-item" href="ec.html">Electronics And Communication</a></li>
+                            <li><a class="dropdown-item" href="#">Mechanical Engineering</a></li>
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!------------nav end------------>
+
+    <!------------carousel start------------>
+    <div class="text-center" style="background-color:rgba(0, 0, 139, 0.603); margin: 20px;">
+        <img src="cont.jpg" class="img-fluid" alt="..." height="400" width="1000">
+    </div>
+    <!------------carousel end------------>
+
+    <div id="contact" class="container mt-3 mb-5">
+
+        <div class="row">
+           
+
+            <div class="col-lg-6 col-md-6 col-12">
+                <h1>CONTACT INFO</h1>
+                <p style="font-size: larger;">PHONE:+91 234 567 890</p>
+                <p style="font-size: larger;">EMAIL: xyz@gmail.com</p>
+                <p style="font-size: larger;">ADDRESS:Belagavi, Karnataka 590008.</p>
+
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-12 w-50">
+                <h1>SEND A MESSAGE</h1>
+                <form action="#">
+                    <div class="form-group">
+                        <label for="fname">Full Name:</label>
+                        <input type="text" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Message:</label>
+                        <textarea class="form-control"></textarea>
+                    </div>
+
+                    <br>
+                    <button type="submit" class="btn btn-default" id="mybtn" onclick="test()">Send</button>
+                    <script type="text/javascript">
+                        function test() {
+                            alert("thank you for sending a message");
+                        }
+                    </script>
+                </form>
+            </div>
+
+
+        </div>
+
+
+        <div class="col-sm-12 col-md-12">
+            <div class="map-responsive mb-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3374.8350653514!2d74.48646575478145!3d15.822404499041152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbf65fce1db9ac3%3A0x272a8426898e54a2!2sJGI%20-%20Jain%20College%20Of%20Engineering%20And%20Research!5e0!3m2!1sen!2sin!4v1632237464109!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <section class="bg-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4">
+
+
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-2 about-li">
+                    <div class="about-list">
+                        <ul>
+                            <h5>Legal</h5>
+
+                            <li><a href="#">AICTE Approvals</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 supp-li">
+                    <div class="about-list">
+                        <ul>
+                            <h5>Programmes</h5>
+                            <li><a href="civil.html">Civil Engineering</a></li>
+                            <li><a href="cs.html">Computer Science & Engineering</a></li>
+                            <li><a href="ec.html">Electrical & Electronics Engineering</a></li>
+                            <li><a href="me.html">Mechanical Engineering</a></li>
+                            <li><a href="#">Basic Science And Humanities</a></li>
+                            <li><a href="#">Administrative Office</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--  -->
+        <hr class="rounded">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="thankyou">
+                        <h3>© 2020 Copyright:MDBootstrap.com</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
